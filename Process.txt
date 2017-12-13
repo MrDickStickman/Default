@@ -1,0 +1,23 @@
+Load Daily (Default 2004 to Present)
+
+Run Interactive
+ - Create Weekly
+ - Create Monthly
+ - Create Stats
+
+Create All 	sp_resultsHistoryX4_interval2_submit 
+ - Has History, No x4 results	
+
+	Create Trend 		sp_submitProcessGroup (200)
+ 		- Creates Daily, Weekly, and Monthly
+
+
+	Create Rules 		sp_submitProcessGroup (500)
+ 		- Creates Daily, Weekly, and Monthly
+
+
+	Create x4 Results		
+
+
+-- Notes
+Add Target and Alternate fields to check when reloading fields4. So you don't copy in other jobs
